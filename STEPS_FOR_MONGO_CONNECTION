@@ -1,0 +1,9 @@
+1) Go into the migrations directory and delete all the migrations, but make sure you leave the __init__.py file
+2) Next need to install correct pymongo version run these two commands:
+    pip uninstall pymongo
+    Then run,
+    pip install pymongo==3.12.1
+    
+3) Add your IP address to mongodb. Navigate to: https://cloud.mongodb.com/v2/61c891c78f9e565e72a716eb#security/network/accessList
+   Then click add IP address, then press "add current ip address"
+4) make the migrations
